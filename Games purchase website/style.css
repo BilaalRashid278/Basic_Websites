@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ################### Utility Class ######################### */
+.container{
+    max-width: 1200px;
+    width: 83%;
+    margin: auto;
+}
+
+/* ############################ Navbar styling ####################### */
+.navbar{
+    box-shadow: 0px 7px 10px 0px #aaa;
+    position: sticky;
+    
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+   
+}
+.nav-item{
+    padding: 16px;
+}
+.nav-item a:hover{
+    color:orangered;
+}
+.nav-item a{
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+}
+
+/* ######################## Header styling ######################### */
+

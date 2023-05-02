@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300;400;500;700&family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 95vh;
+    background: url('../img/bilaal.photo.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+  
+    
+}
+.navbar{
+
+}
+
+.header .navbar .logo{
+    color:#fff;
+    font-size: 700;
+    font-size: 4rem;
+    padding: 1rem 0;
+   
+    
+}
+
+.links{
+    color:#fff;
+    font-size: 500;
+    text-decoration: none;
+   
+    
+    
+}
+.links:hover{
+    border-bottom: 1px solid whitesmoke;
+    padding: 3px;
+}
+
+.navbar .logo{
+           float: left;
+}
+
+.navbar .logo-items .logo-item{
+                float: right;
+                padding: 2rem ;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                /* padding-bottom: 3rem; */
+                
+}
+
+.navbar::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+/* ############################## section main content #################################### */
+
+.main-content{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+.main{
+    font-size: 3.5rem;
+}
+
+.paragraph{
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.button{
+    color:red;
+    border: 1px solid red;
+    background: white;
+    border-radius: 100px;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left:3.6rem ;
+    padding-right: 3.6rem ;
+    font-size: 1.4rem;
+    
+    
+}
+ .button:hover{
+    border: 3px solid orangered;
+}
+
+/* #################################### showcase styling ################################ */
+
+.showcase{
+    background: #ddd;
+    padding:  10rem 0;
+}
+.container1{
+    max-width: 1200px;
+    width:70%;
+    margin: 0 auto;
+}
+.row{
+    height: 350px;
+    
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.img-box,.text-box{
+   
+    display: inline-block;
+    height: 100%;
+
+}
+.row .img-box img{
+              display: inline-block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+}
+.lg{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+.par{
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    /* border: 2px solid blue; */
+    word-spacing: 0.1rem;
+    display: inline-block;
+    color: rgb(125, 119, 119);
+
+}
+.btn1{
+      display: inline-block;
+    border: 1px solid red;
+    margin-left: 2rem;
+    padding-left:2rem ;
+    padding-right:2rem ;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem ;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    color: red;
+}
+.btn2{
+    text-decoration: none;
+}
+.btn2:hover{
+    text-decoration: dashed;
+}
+.row .text-box{
+    background: #fff;
+}

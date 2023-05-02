@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300;400;500;700&family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 95vh;
+    background: url("../img/header-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   /* ############################### navbar full styling ################################ */
+ .navbar{
+    /* border: 2px solid whitesmoke; */
+    padding: 1.7rem;
+    
+    
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn:hover{
+        border-bottom: 1px solid #fff;
+}
+a{
+    padding: 0.3rem;
+}
+
+
+
+.header .logo, .logo-item a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    
+}
+
+.header .navbar .logo{
+    float: left;
+    font-size: 3.7em;
+    padding: 1rem;
+}
+
+.header .navbar .logo-item{
+    float: right;
+    margin-top: 2.3rem;
+    margin-left: 1.9rem;
+    margin-right: 1.7rem;
+}
+
+a:link, a:visited{
+    color: aliceblue;
+}
+
+/* ################################## end navbar styling ################################## */
+
+.lg-heading{
+    color: #fff;
+}
+
+.text{
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 2.7rem;
+}
+.para{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    padding-top: 0.7rem;
+
+}
+.button{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: large;
+    margin: 0.5em 0;
+    padding-left: 3rem;
+    padding-right:3rem ;
+    padding-bottom: 1.3rem;
+    padding-top: 1.3rem;
+    border-radius: 100px;
+    font-size: larger;
+    /* margin-left: 30%; */
+}
+.primary{
+    color: red;
+    background-color: #fff;
+    text-decoration: none;
+   
+}
+
+.lg-heading{
+    position: absolute;
+    text-align: center;
+    width:fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* #################### showcase section styling ####################### */
+
+.showcase{
+
+    background-color: #ddd;
+    padding: 10rem 0;
+    
+}
+   
+.row{
+    height: 350px;
+    border: 3px solid red;
+    width: 83rem;
+    height: 27rem;
+    margin: auto;
+    
+}
+.row1{
+    margin-bottom: 10rem;
+    padding: ;
+}
+.row1 .img-box, .row2 .text-box{
+    float:left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float:right;
+    width: 50%;
+}
+.row .img-box{
+    border: 8px solid red;
+   \
+
+}
+.row .text-box{
+    border: 8px solid red;
+    
+
+}

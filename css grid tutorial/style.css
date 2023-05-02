@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 85vh;
+    width: 70vw;
+    margin: auto;
+   display: grid;
+   border: 2px solid rgb(116, 190, 5);
+   /* ######## css grid container properties ############ */
+    grid-template-columns:repeat(auto-fitewaaw,100px);  /* --->  (fr) is fraction Untis */
+   /* grid-template-rows: 120px 120px; */
+   grid-auto-rows: 100px;
+   /* column-gap: 10px;
+   row-gap: 30px; */
+   gap: 10px 20px;
+
+  
+}
+.items{
+    background-color: rebeccapurple;
+    border: 1.5px solid black;
+    color: #fff;
+}

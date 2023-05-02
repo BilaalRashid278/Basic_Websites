@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@300&family=Montserrat:wght@300;400;500;700&family=Noto+Sans:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@300;400;600;700;800&family=Permanent+Marker&family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+     height: 95vh;
+     /* border: 3px solid blue; */
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url(../img/header-image.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.container{
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar{
+    /* border: 3px solid greenyellow; */
+    padding: 1rem;
+}
+.logo{
+    font-family: 'Caveat', cursive;
+    color: #fff;
+    float: left;
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-top: 0.7rem ;
+
+}
+
+.logo-item{
+    float: right;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-top: 1.6rem;
+    padding-right: 1rem;
+   
+
+}
+.links:hover{
+    border-bottom: 1px solid #fff;
+    
+}
+    
+    
+.links{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ################# Main content ####################*/
+
+.main-content{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.button{
+    color: black;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    padding: 0.4rem 1rem;
+    background: #fff;
+    text-decoration: none;
+    color: red;
+}
+.button:hover{
+    background: rgb(219, 219, 219);
+}
+.content{
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+/* ##################### Showcase styling ######################### */
+.showcase{
+    background-color: rgb(203, 207, 207);
+    padding: 10rem 0;
+}
+.container1{
+    max-width: 1200px;
+    width:70%;
+    margin: 0 auto;
+}
+.row{
+    height: 350px;
+    /* border: 2px solid black; */
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px  rgb(47, 46, 46);
+}
+.row1{
+    margin-bottom: 10rem;
+    
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.img-box,.text-box{
+   
+    display: inline-block;
+    height: 100%;
+
+}
+.row .img-box img{
+              display: inline-block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+}
+.lg{
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+.par{
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.btn1{
+    margin: 2rem;
+    border: 1px solid red;
+    padding-left: 1.7rem;
+    padding-right: 1.8rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 100px;
+    font-size: 1.2rem;
+}
+
+.btn2{
+    
+    color: red;
+}
+
+.btn2:hover{
+    text-decoration: dashed;
+    background: whitesmoke ;
+}
+.container2{
+    max-width: 1070px;
+    width: 90%;
+    margin:  0 auto;
+}
+
+
+
+.footer{
+    background: rgb(40, 39, 39);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+ }
+  .media i{
+    margin: 1rem;
+    
+  }
+
+  .p{
+    font-size: 0.9rem;
+    word-spacing: 0.4rem;
+  }
+
+  /* ###################### Media Queries ################## */
+  
+  @media (max-width:700px){
+    html{
+        font-size: 60%;
+    }
+    .logo{
+        float: left;
+        text-align: center;
+        font-size: 2.3rem;
+    }
+    .logo-item{
+        float: right;
+        font-size: 1rem;
+        text-align: right;
+        text-align: center;
+    }
+   .row{
+    height: auto;
+    width: 100%;
+   }
+   .row .img-box,
+   .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+   }
+   .row .text-box{
+    font-size: 1.5rem;
+    padding: 1.4rem;
+   }
+  }
+  
+
+
+
+
+
+
+
+
+  /* ######################## About Page ################### */
+
+  .navigation{
+    border:2px solid black;
+    background: rgb(53, 52, 52);
+  }
+  .h1{
+    float: left;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+
+  .lists{
+    float: right;
+   padding-left: 1rem;
+   padding-top: 1.8rem;
+   padding-right: 2rem;
+    font-size: 1.2rem;
+
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+   padding-bottom: 0.2rem;
+   
+  }
+  a:hover{
+    border-bottom: 1px solid #fff;
+  }
+  nav::after{
+       content: "";
+       display: block;
+       clear: both;
+  }
+  
+  
+
